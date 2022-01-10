@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        
+        <title>Data</title>
+        <link href="{{ url_for('static', path='/css.css') }}" rel="stylesheet">
+    </head>
+    <body>
+
+            <h1>
+            Potato Plant Diseases
+            </h1>
+            <div class=form>
+            <form action="/predict/" method="POST" enctype="multipart/form-data" onsubmit="showloading()">
+                <label for="img">Select image:</label>
+                <input type="file" id="file" name="file" accept="image/x-png, image/gif, image/jpeg" />
+            
+              
+                <input type="submit" class="button" value="Click">
+            </div>
+              </form>
+             
+            </div>
+    </body>
+</html>

@@ -1,0 +1,43 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    background-color: #6196aa70;
+   }
+h1   {
+    color: white;
+    font-size: 40px;
+    text-align:80px; 
+    margin-top: 0px;
+    padding:10px;
+    background-color: green;
+    width: auto;
+    height: 60px;
+  }
+p    {color: red;}
+.form {
+    padding-top: 150px;
+    text-align: center;
+    }
+.form label{
+     font-size: 32px;
+     font-family: 'Crimson Pro', serif;
+
+     text-emphasis-color: white;
+}
+.form label input{
+     font-size: 30px;
+     font-style: oblique;
+     text-emphasis-color: white;
+}
+.button {
+        background-color: green;
+        border: none;
+        color: white;
+        padding: 9px 42px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        font-family: 'Crimson Pro', serif;
+}
